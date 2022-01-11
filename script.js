@@ -86,6 +86,7 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 const clock = new THREE.Clock()
 
 const tick = () => {
+    // console.log("tick")
 
     const elapsedTime = clock.getElapsedTime()
 
