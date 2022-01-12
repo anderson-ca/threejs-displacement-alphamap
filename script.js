@@ -64,7 +64,7 @@ gui.addColor(col, 'color').onChange(() => {
  * Sizes
  */
 const sizes = {
-    width: window.innerWidth,
+    width: window.innerWidth * .7,
     height: window.innerHeight
 }
 
